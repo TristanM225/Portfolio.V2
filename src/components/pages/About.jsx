@@ -1,4 +1,4 @@
-import profile from 'src/assets/pic-of-me.jpg'
+import profile from '../../assets/pic-of-me.jpg'
 
 const About = () => {
     return (
