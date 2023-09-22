@@ -93,3 +93,39 @@ button:focus-visible {
   margin-bottom: 5px;
   width: 100%;
 }
+
+.project-image{
+  width: 100%;
+}
+/* creates the zoom out effect for the project images */
+.zoom {
+  padding: 0px;
+  transition: transform .2s;
+  width: 100%;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+}
+
+.products {
+  flex: 4;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.card {
+  border-style: solid;
+  border-width: 15px;
+  border-radius: 10px;
+  padding: 10px;
+  flex: 0 0 400px;
+  transform: rotate(10deg);
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 20px;
+}

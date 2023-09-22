@@ -1,5 +1,16 @@
-import PortfolioBox from "./components/PortfolioBox";
+import { Outlet } from 'react-router-dom';
+import Header from "./components/MyHeader";
+import Footer from "./components/MyFooter";
 
-const App = () => <PortfolioBox />;
+
+function App() {
+  return (
+      <div className='h-100'>
+        <Header />
+        <Outlet />
+        <Footer />
+      </div>
+  );
+}
 
 export default App;

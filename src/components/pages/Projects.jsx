@@ -1,23 +1,41 @@
-import { useState } from 'react';
+/* eslint-disable react/jsx-key */
+
+
 
 import codingQuiz from '../../assets/Coding_quiz.png';
-// import endorfins from '../../images/endorfins.png';
-// import socialDB from '../../images/socialmediaDB.png';
-// import expressNotes from '../../images/noteTaker.png';
-// import README from '../../images/READMEgen.png';
-// import scheduler from '../../images/scheduler.png';
-// import quiz from '../../images/codingQuiz.png';
-// import password from '../../images/passwordGen.png';
-// import studyGuide from '../../images/studyGuide.png';
-// import thymeForLunch from '../../images/thymeForLunch.gif';
 
 const portfolioPics = [
-{
+  {
     src: codingQuiz,
     alt: 'Simple Coding Quiz',
     repo: 'https://github.com/TristanM225/Code_Quiz',
     link: 'https://tristanm225.github.io/Code_Quiz/',
+},
+{
+  src: codingQuiz,
+  alt: 'Simple Coding Quiz',
+  repo: 'https://github.com/TristanM225/Code_Quiz',
+  link: 'https://tristanm225.github.io/Code_Quiz/',
+},
+{
+  src: codingQuiz,
+  alt: 'Simple Coding Quiz',
+  repo: 'https://github.com/TristanM225/Code_Quiz',
+  link: 'https://tristanm225.github.io/Code_Quiz/',
+},
+{
+  src: codingQuiz,
+  alt: 'Simple Coding Quiz',
+  repo: 'https://github.com/TristanM225/Code_Quiz',
+  link: 'https://tristanm225.github.io/Code_Quiz/',
 }
+
+
+
+
+
+
+
 ];
 
 const Project = () => {
@@ -30,7 +48,7 @@ const Project = () => {
                 id="projectImg"
                 src={Object.src}
                 alt="JATE"
-                className="col"
+                className="col zoom products card"
               />
               <div id="projectMiddle">
               <div id="projectTitle">{Object.alt}</div>
