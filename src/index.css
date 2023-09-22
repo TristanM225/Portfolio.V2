@@ -20,6 +20,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+--night: #121619ff;
+--hookers-green: #4e6e58ff;
+--viridian: #4c8577ff;
+--erin: #53ff45ff;
+--white-smoke: #f0f2efff;
+
 }
 
 a {
@@ -74,4 +81,15 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
 }
