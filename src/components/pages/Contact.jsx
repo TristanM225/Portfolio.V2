@@ -54,7 +54,7 @@ function Form() {
   };
 
   return (
-    <div className="container text-center">
+    <div className="container text-center box">
       <h1>Hello {userName}</h1>
       <form className="form" onSubmit={handleFormSubmit}>
         <input

@@ -6,7 +6,7 @@ const Footer = () => {
   
   return (
     <>
-      <div className=" text-center footerStyle">
+      <footer className=" text-center footerStyle ">
         <div className="row justify-content-md-center pt-5">
           <div className="col fs-1">
             <a href="https://github.com/TristanM225" target="_blank" rel="noopener noreferrer" >
@@ -24,7 +24,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-      </div>
+      </footer>
     </>
   );
 };

@@ -179,7 +179,10 @@ button:focus-visible {
 
  .footerStyle  {
   background-color: var(--black) !important;
-  padding-bottom: 50px
+ padding: 20px 0;
+
+  bottom: 0;
+  width: 100%
 
 };
 
@@ -190,4 +193,12 @@ button:focus-visible {
 
 .project-image{
   width: 100%;
+}
+
+.box {
+  min-height: 70vh;
+}
+
+h5 {
+  color: var(--school-bus-yellow) !important;
 }
